@@ -3,16 +3,12 @@
     padding: 0;
 }
 
-
-
 .Header_box{
     position: absolute;
     width: 100%;
     background: #1E1C21;
     align-items: center;
-}
-
-.links{
+    height: 60px;
 }
 
 .links a{
@@ -27,5 +23,17 @@
     background-blend-mode: darken;
 }
 
-.bannerimg{
+.banner h1{
+    color: white;
+    font-size: 70px;
+}
+
+.banner h3{
+    color: white;
+    font-size: 24px;
+}
+
+.time4 {
+    width: 100px;
+    height: 100px;
 }
