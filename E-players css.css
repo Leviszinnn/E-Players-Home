@@ -1,0 +1,15 @@
+hr{
+    display: flex;
+    color: black;
+    /* width: 30px; */
+}
+
+.container {
+    background: linear-gradient(90deg, #150605 0%, #7C1111 71.56%, #BC0000 100%);
+    background-blend-mode: darken;
+    position: absolute;
+    width: 1920px;
+    height: 600px;
+    left: 0px;
+    top: 110px;
+}
