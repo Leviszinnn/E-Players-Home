@@ -9,33 +9,54 @@
     height: 30px;
 }
 
+.container{
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.header{
+    align-items: center; 
+    display:flex;
+    justify-content: space-between;
+    height: 100%;
+}
+
 header {
     background: #1E1C21;
-    height: 60px;
-    position: fixed;
+    height: 80px;
     top: 0;
     z-index: 99;
     width: 100%;
-    /* align-items: center; */
+}
+
+.menu{
+    justify-content: space-between;
+    align-items: center;
 }
 
 .links{
     display: flex;
     justify-content: space-between;
-    width: 590px;
 }
 
+
 .links a{
-    font-size: 26px;
+    font-size: 20px;
     color: white;
     text-decoration: none;
     text-transform: uppercase;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin-left: 30px;
 }
 
 .banner{
     background: linear-gradient(90deg, #150605 0%, #7C1111 71.56%, #BC0000 100%);
     background-blend-mode: darken;
 }
+
+/* .yasuo{
+    left: 0;
+} */
 
 .banner h1{
     color: white;
@@ -52,12 +73,26 @@ header {
     height: 100px;
 }
 
-.logs{
-    background: #000000;
-    /* align-items: center; */
-    justify-content: space-between;
-}
-
 .como_participar{
     background: linear-gradient(0deg, rgba(8, 65, 3, 0.78), rgba(8, 65, 3, 0.78)), url(E_Players/wp2635077.jpg);
+}
+
+.times{
+    background: #000000;
+}
+
+.times h2{
+    color: white;
+}
+
+.times h3{
+    color: white;
+}
+
+.hr{
+    color: white;
+}
+
+.logs{
+    background: black;
 }
