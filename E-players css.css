@@ -1,14 +1,28 @@
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
-.Header_box{
-    position: absolute;
-    width: 100%;
+.logo{
+    width: 285px;
+    height: 30px;
+}
+
+header {
     background: #1E1C21;
-    align-items: center;
     height: 60px;
+    position: fixed;
+    top: 0;
+    z-index: 99;
+    width: 100%;
+    /* align-items: center; */
+}
+
+.links{
+    display: flex;
+    justify-content: space-between;
+    width: 590px;
 }
 
 .links a{
@@ -36,4 +50,14 @@
 .time4 {
     width: 100px;
     height: 100px;
+}
+
+.logs{
+    background: #000000;
+    /* align-items: center; */
+    justify-content: space-between;
+}
+
+.como_participar{
+    background: linear-gradient(0deg, rgba(8, 65, 3, 0.78), rgba(8, 65, 3, 0.78)), url(E_Players/wp2635077.jpg);
 }
