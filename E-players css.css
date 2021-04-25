@@ -87,8 +87,6 @@ header {
     /* justify-content: center; */
 }
 
-
-
 .logs{
     background: black;
     display: flex;
@@ -99,6 +97,48 @@ header {
 
 .patrocinios{
     height: 110px;
+}
+
+.como_participar{
+    background-image: url(E_Players/wp2635077.jpg);
+    background-repeat: no-repeat;
+    height: 500px;
+    width: 100%;
+    background-position: center;
+}
+
+.cor_fundo{
+    background-color: rgba(16, 231, 62, 0.4);
+    height: 100%;
+}
+
+.quadrado {
+    clip-path: polygon(0 15%, 100% 0, 100% 89%, 0% 100%);
+    background-color: rgba(0, 0, 0, 70%);
+    height: 100%;
+}
+
+.imagemthresh{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 100%;
+}
+
+.thresh{
+    height: 350;
+}
+
+.texto h2{
+    font-size: 50px;
+    color: white;
+}
+
+.texto p {
+    color: white;
+    font-size: 30px;
+    width: 650px;
+    text-align:justify ;
 }
 
 
