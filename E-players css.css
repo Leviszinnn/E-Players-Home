@@ -147,8 +147,11 @@ header {
 /* como participar */
 /* times ao vivo/em breve */
 
-.time{
+.vivo_times{
     background: black;
+}
+
+.time{
     align-items: center;
     display: flex;
     justify-content: space-evenly;
@@ -156,19 +159,24 @@ header {
 
 .time h2{
     color: white;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
-.time h3{
+.partida h3{
     color: white;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
 .time hr{
-    flex-direction: column;
+    /* flex-direction: column; */
     color: white;
+    height: 40px;
 }
 
-.time span {
+.partida span {
     color: white;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-transform:uppercase;
 }
 
 .times{
@@ -176,9 +184,18 @@ header {
     height: 54px;
 }
 
+.partida{
+    align-items: center;
+    display: flex;
+    justify-content: space-evenly;
+}
+
 /* times ao vivo/em breve */
+/* Noticias */
 
+    
 
+/* Noticias */
 /* footer */
 footer {
     background-color: black;
