@@ -4,6 +4,7 @@
     box-sizing: border-box;
 }
 
+/* Header */
 .logo{
     width: 285px;
     height: 30px;
@@ -48,7 +49,8 @@ header {
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     margin-left: 30px;
 }
-
+/* header */
+/* banner */
 .banner{
     background-image: linear-gradient(to right, black , red);
     background-blend-mode: darken;
@@ -86,7 +88,8 @@ header {
     /* align-items: center; */
     /* justify-content: center; */
 }
-
+/* banner */
+/* patrocinios */
 .logs{
     background: black;
     display: flex;
@@ -98,7 +101,8 @@ header {
 .patrocinios{
     height: 110px;
 }
-
+/* patrocinios */
+/* como participar */
 .como_participar{
     background-image: url(E_Players/wp2635077.jpg);
     background-repeat: no-repeat;
@@ -140,11 +144,42 @@ header {
     width: 650px;
     text-align:justify ;
 }
+/* como participar */
+/* times ao vivo/em breve */
+
+.time{
+    background: black;
+    align-items: center;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.time h2{
+    color: white;
+}
+
+.time h3{
+    color: white;
+}
+
+.time hr{
+    flex-direction: column;
+    color: white;
+}
+
+.time span {
+    color: white;
+}
+
+.times{
+    width: 53px;
+    height: 54px;
+}
+
+/* times ao vivo/em breve */
 
 
-
-
-
+/* footer */
 footer {
     background-color: black;
     height: 350px;
@@ -229,3 +264,4 @@ footer {
     align-items: center;
     margin-top: 10px;
 }
+/* footer */
