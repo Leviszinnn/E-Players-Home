@@ -192,8 +192,171 @@ header {
 
 /* times ao vivo/em breve */
 /* Noticias */
+ .Noticia {
+    height: 900px;
+    display: flex;
+    align-items: center;
+    background: rgb(49, 48, 48);
+}
 
+.section_noticias h2 {
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 50px;
+    color: white;
+}
+
+.noticias_proximos {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* background: rgb(49, 48, 48); */
+}
+
+.titulo {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.titulo h2{
+    color: white;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 30px;
+}
+
+.noticia {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 740px;
+}
+
+.dividir {
+    display: flex;
+    justify-content: space-evenly;
+    width: 790px;
+}
+
+.noticias {
+    width: 240px;
+    height: 345px;
+    background: linear-gradient(to bottom, rgba(45, 45, 45, 1) 0%, rgba(0, 0, 0, 1) 100%);
+    box-shadow: 13px 8px 7px black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.noticias img {
+    width: 240px;
+    height: 158px;
+}
+
+.noticias h3 {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 25px;
+    color: white;
+}
+
+.noticias p {
+    font-family: 'Titillium Web', sans-serif;
+    color: white;
+    text-align: justify;
+    padding: 0 8px;
+}
+
+.pain{
+    height: 40px;
+}
+
+.loud{
+    height: 40px;
+}
+
+.beta_noticias{
+    display: flex;
+    justify-content: space-between;
+}
+
+.noticias h2{
+    margin-top: 20px;
+    /* background-color:royalblue; */
+    height: 30px;
+    font-size: xx-large;
+    color: white;
+}
+
+.container_noticias{
+    height: 900px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    /* background-color: blue; */
+}
+
+.container_noticias article{
+    margin-right:20px ;
+    margin-top: 30px;
+    width: 250px;
+    height: 400px;
+    background-image:linear-gradient(to bottom, rgb(48, 44, 44) , black);
+}
+
+.container_noticias p{
+    color: white;
+    /* background-color: wheat; */
+    height:150px ;
+    width: 200px;
+    margin-left: 9px;
+    margin-top: 15px;
+}
+
+.prox_jogos{
+    margin-top: 20px;
+    /* background-color: wheat; */
+    width: 430px;
+}
+
+.prox_jogos h2{
+    text-align: center;
+    font-size: xx-large;
+    color: white;
+}
+.prox_jogos div{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    color: white;
+    /* background-color: antiquewhite; */
+    margin-bottom: 50px;
+}
+
+.prox_jogos span{
     
+    font-weight:bolder ;
+    display: inline-block;
+    margin: 0 10px;
+}
+.div1{
+    margin-top: 25px;
+}
+
+.data{
+    margin-top: 10px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: x-large;
+}
+
+.prox_jogos article{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 24px;
+    background-image:linear-gradient(to bottom, rgb(48, 44, 44) , black);
+    width: 300px;
+}
 
 /* Noticias */
 /* footer */
