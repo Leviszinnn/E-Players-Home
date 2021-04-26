@@ -73,11 +73,13 @@ header {
     text-align: center;
     color: white;
     font-size: 70px;
+    margin-left: 70px;
 }
 
 .banner h3{
     color: white;
     font-size: 24px;
+    margin-left: 90px;
 }
 
 .inscrever{
@@ -87,6 +89,8 @@ header {
     text-transform: uppercase;
     /* align-items: center; */
     /* justify-content: center; */
+    margin-left: 110px;
+    margin-top: 30px;
 }
 /* banner */
 /* patrocinios */
